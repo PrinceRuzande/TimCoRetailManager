@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRMDataManager", "TRMDataManager\TRMDataManager.csproj", "{C2B33673-9AF5-45FF-8AAC-F84D1BC10EDB}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TRMData", "TRMData\TRMData.sqlproj", "{1F744CE9-2202-4E27-811A-45A877F6DDF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRMDesktopUI", "TRMDesktopUI\TRMDesktopUI.csproj", "{CEB25710-6C83-4429-AD15-BF31BBAB66B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{C2B33673-9AF5-45FF-8AAC-F84D1BC10EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2B33673-9AF5-45FF-8AAC-F84D1BC10EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2B33673-9AF5-45FF-8AAC-F84D1BC10EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F744CE9-2202-4E27-811A-45A877F6DDF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F744CE9-2202-4E27-811A-45A877F6DDF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F744CE9-2202-4E27-811A-45A877F6DDF1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1F744CE9-2202-4E27-811A-45A877F6DDF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F744CE9-2202-4E27-811A-45A877F6DDF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F744CE9-2202-4E27-811A-45A877F6DDF1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CEB25710-6C83-4429-AD15-BF31BBAB66B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEB25710-6C83-4429-AD15-BF31BBAB66B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEB25710-6C83-4429-AD15-BF31BBAB66B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEB25710-6C83-4429-AD15-BF31BBAB66B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
